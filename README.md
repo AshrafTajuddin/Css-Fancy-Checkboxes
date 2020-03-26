@@ -23,7 +23,7 @@
 
 - [Checkbox Css](https://medium.com/claritydesignsystem/pure-css-accessible-checkboxes-and-radios-buttons-54063e759bb3)
 - [:checked Css - Mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/:checked)
-- [style checkbox -stake overflow]https://stackoverflow.com/questions/4148499/how-to-style-a-checkbox-using-css)
+- [style checkbox -stake overflow](https://stackoverflow.com/questions/4148499/how-to-style-a-checkbox-using-css)
 
 #### Result
 
