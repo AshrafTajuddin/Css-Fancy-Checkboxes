@@ -14,6 +14,7 @@
     <title>Fancy CheckBox</title>
   </head>
   <body>
+    <h2>Hi this text will be in WHITE when in dark mode theme!!</h2>
     <div class="box">
       <h1>Fancy Checkboxes</h1>
       <label class="container"
@@ -36,15 +37,30 @@
         <input type="checkbox" />
         <span class="check"></span>
       </label>
-      <label class="container"
-        >Fri
-        <input type="checkbox" />
-        <span class="check"></span>
-      </label>
+
+      <div id class="myUgly">
+        <label class="container"
+          >Fri
+          <input type="checkbox" />
+          <span class="check"></span>
+        </label>
+      </div>
+
       <label class="switch">
         <input type="checkbox" checked />
         <span class="slider round"></span>
       </label>
+
+      <button onclick="myFunction()">
+        Click for Dark Mode
+      </button>
     </div>
+
+    <script>
+      function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+    </script>
   </body>
 </html>

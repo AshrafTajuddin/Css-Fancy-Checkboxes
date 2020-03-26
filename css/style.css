@@ -12,6 +12,15 @@ h1 {
   color: black;
   text-align: center;
 }
+h1:hover {
+  color: firebrick;
+  transition: 0.4s;
+  cursor: crosshair;
+}
+h2 {
+  text-align: center;
+  margin: 40px;
+}
 .box {
   max-width: 20rem;
   margin: auto;
@@ -146,4 +155,17 @@ input:checked + .slider:before {
   transform: translateX(30px);
   content: "ON";
   background-color: lightgreen;
+}
+/* dark mode */
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+button {
+  border-radius: 50px;
+  border: 2px black solid;
+  font-size: small;
+  padding: 3px;
+  margin: 5px;
 }
